@@ -25,10 +25,10 @@ public class UserController
 		return "index";
 		
 	}
-	
 	/*
 	 * @RequestMapping("/") public String register() { return "register"; }
 	 */
+	 
 	
 	@RequestMapping("/home")  // localhost:8081/home
 	public String home(HttpServletRequest req,Model m)
@@ -106,26 +106,13 @@ public class UserController
       
       // uncommented bias  
       
-      
-  @RequestMapping("/app")
-  public String app1()
-  {
-	  return "home";
-  }
+		/*
+		 * @RequestMapping("/app") public String app1() { return "home"; }
+		 * 
+		 */
   
   
-  
-  
-	/*
-	 * @RequestMapping ("/canteen")
-	 * 
-	 * 
-	 * public String canteen()
-	 * 
-	 * { return " home.jsp;
-	 * 
-	 * }
-	 */
+
 
 }
 
